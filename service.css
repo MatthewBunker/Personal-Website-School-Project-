@@ -1,0 +1,23 @@
+.nav_bar {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 15px 50px 25px black;
+    justify-content: center;
+    width: 100%;
+}
+
+.buttons {
+    position: absolute;
+    left: 20%;
+}
+
+.nav_bar button {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.buttons button:hover {
+    color: white;
+    background-color: rgb(55, 169, 214);
+}
