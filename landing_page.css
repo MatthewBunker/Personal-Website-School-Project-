@@ -1,5 +1,9 @@
 body{
-    background-image: url(images/sunset_city.jpg);
+    background: #757F9A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, white, black); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
     background-size: cover;
 }
 
@@ -33,7 +37,6 @@ body{
 
 .title_name{
     /*Text*/
-    text-align: center;
     color: maroon;
     font-size: 25px;
 
@@ -46,9 +49,6 @@ body{
     margin-bottom: -50px;
     width: 500px;
     height: 225px;
-
-    /*Border*/
-    border: 10px solid black;
 }
 
 .personal_image img{
