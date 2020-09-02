@@ -41,7 +41,7 @@ body{
     font-size: 25px;
 
     /*Centering Text*/
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 20%;
     margin-top: -50px;
@@ -58,5 +58,6 @@ body{
     margin-top: -50px;
     margin-left: -50px;
     margin-bottom: 20px;
-   border-radius: 5%
+   border-radius: 5%;
+   
 }
