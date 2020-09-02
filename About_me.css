@@ -1,3 +1,10 @@
+body {
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+}
+
 .nav_bar {
     z-index: 1;
     position: fixed;
@@ -5,6 +12,10 @@
     box-shadow: 0px 15px 50px 25px black;
     justify-content: center;
     width: 100%;
+}
+
+#logo_image {
+    box-shadow: 0px 0px 5px 5px #005AA7;
 }
 
 .buttons {
@@ -19,5 +30,46 @@
 
 .buttons button:hover {
     color: white;
-    background-color: rgb(55, 169, 214);
+    background-color: #005AA7;
+}
+
+.About_me {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.left-side {
+    width: 50%;
+}
+
+
+.title {
+
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    margin-top: -50px;
+    margin-left: -50px;
+    margin-bottom: -50px;
+    width: 500px;
+    height: 225px;
+    
+}
+
+.right-side {
+    width: 50%;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    margin-top: -50px;
+    margin-left: -50px;
+    margin-bottom: -50px;
+    width: 600px;
+    height: 225px; 
+    
 }

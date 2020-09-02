@@ -1,6 +1,5 @@
 body{
     background-image: url(images/sunset_city.jpg);
-    background-repeat:no-repeat;
     background-size: cover;
 }
 
@@ -11,6 +10,10 @@ body{
     box-shadow: 0px 15px 50px 25px black;
     justify-content: center;
     width: 100%;
+}
+
+#logo_image {
+    box-shadow: 0px 0px 5px 5px maroon;
 }
 
 .buttons {
@@ -25,13 +28,13 @@ body{
 
 .buttons button:hover {
     color: white;
-    background-color: rgb(55, 169, 214);
+    background-color:maroon;
 }
 
 .title_name{
     /*Text*/
     text-align: center;
-    color: rgb(55, 169, 214);
+    color: maroon;
     font-size: 25px;
 
     /*Centering Text*/
@@ -45,7 +48,7 @@ body{
     height: 225px;
 
     /*Border*/
-    border: 10px solid rgb(55, 169, 214);
+    border: 10px solid black;
 }
 
 .personal_image img{
