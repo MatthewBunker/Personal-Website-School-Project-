@@ -46,9 +46,8 @@ body{
 
 
 .title {
-
+    position: fixed;
     color: white;
-    position: absolute;
     top: 50%;
     left: 20%;
     margin-top: -50px;

@@ -46,8 +46,7 @@ body {
 
 
 .title {
-
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 20%;
     margin-top: -50px;
@@ -63,6 +62,7 @@ body {
 }
 
 .text {
+    
     position: absolute;
     top: 35%;
     left: 55%;
