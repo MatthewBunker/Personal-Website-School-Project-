@@ -46,9 +46,12 @@ body{
 
 
 .title {
-
-    color: white;
     position: fixed;
+    color: white;
+<<<<<<< HEAD
+    position: fixed;
+=======
+>>>>>>> 668cde71edf8ffd0db0926fb57d7790b657dcae1
     top: 50%;
     left: 20%;
     margin-top: -50px;

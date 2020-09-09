@@ -46,7 +46,10 @@ body {
 
 
 .title {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 668cde71edf8ffd0db0926fb57d7790b657dcae1
     position: fixed;
     top: 50%;
     left: 20%;
@@ -63,6 +66,7 @@ body {
 }
 
 .text {
+    
     position: absolute;
     top: 30%;
     left: 55%;
