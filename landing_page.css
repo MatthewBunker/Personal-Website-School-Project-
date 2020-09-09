@@ -1,5 +1,14 @@
 body{
-    background-image: url(images/sunset_city.jpg);
+    /*
+    background: #757F9A;  /* fallback for old browsers
+    background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, white, black); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+    */
+    background: #DBE6F6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
     background-size: cover;
 }
 
@@ -33,12 +42,11 @@ body{
 
 .title_name{
     /*Text*/
-    text-align: center;
     color: maroon;
     font-size: 25px;
 
     /*Centering Text*/
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 20%;
     margin-top: -50px;
@@ -46,17 +54,15 @@ body{
     margin-bottom: -50px;
     width: 500px;
     height: 225px;
-
-    /*Border*/
-    border: 10px solid black;
 }
 
 .personal_image img{
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 60%;
     margin-top: -50px;
     margin-left: -50px;
     margin-bottom: 20px;
-   border-radius: 5%
+   border-radius: 5%;
+   
 }
